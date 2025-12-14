@@ -1,59 +1,86 @@
-> [!IMPORTANT]  
-> **Satoshi is currently in public beta**. We’d love to hear your feedback — [join the discussion and share your thoughts here](https://github.com/scandiweb/satoshi-hyva/discussions/categories/improvement-ideas).
+# Hyvä Magento Theme Template
 
-<br>
+## Status
 
-<p align="center"><a href="https://www.satoshitheme.com/hyva" target="_blank" rel="noopener noreferrer"><img width="400px" src="logo.png"></a></p>
+This project is a **Magento 2 frontend theme built for Hyvä**.  
+It is intended as a **base template** for further development and customization.
 
-<h3 align="center">Enhance exceptional Hyvä performance with outstanding Satoshi UX.</h3>
+---
 
-<p align="center">
-  <img src="https://img.shields.io/github/last-commit/satoshiux/hyva">
-  <img src="https://img.shields.io/github/license/satoshiux/hyva">
-</p>
+## Description
 
-## Features
+This theme provides a modern, performance-oriented frontend implementation for Magento 2 using the **Hyvä framework**.  
+It focuses on clean structure, simplicity, and extensibility, without enforcing specific UX or branding assumptions.
 
-1. An app-like user journey
-2. Page transitions & animations
-3. Dynamic template rendering
-4. Product preview peeks
-5. PDP with instant add to cart
-6. Image zoom to see products in detail
-7. Seamless filtering & sorting
-8. Endless Pagination
-9. Smooth checkout experience
+The codebase is suitable for:
+- custom storefront development,
+- headless or semi-headless architectures,
+- commercial and non-commercial Magento projects.
 
-## Links
+---
 
-[Website](https://www.satoshitheme.com/hyva) • [Documentation](https://scandiweb.notion.site/Hyv-Satoshi-theme-documentation-1adc346d72c080ffb1b2faa454d6739d)
+## Features (Overview)
 
-## Demo
+- Hyvä-compatible frontend structure  
+- Lightweight templates and layouts  
+- Alpine.js-based interactivity  
+- Tailwind CSS styling  
+- Magento-native rendering (no Knockout / RequireJS)
 
-You can check out the `Satoshi` demo at [hyva.satoshitheme.com](https://hyva.satoshitheme.com/). But if you're eager to see it in action, here's a sneak peek! 😉
+---
 
-https://github.com/user-attachments/assets/46f1f487-4436-4a8c-9399-5f22a15f27c8
+## Usage
 
-## Getting started
+This project is intended for developers familiar with:
+- Magento 2 theming
+- Hyvä frontend architecture
+- PHP, HTML, Tailwind CSS, Alpine.js
 
-Start with the [Developer Guide](https://scandiweb.notion.site/Hyv-Satoshi-theme-documentation-1adc346d72c080ffb1b2faa454d6739d?pvs=4#1b5c346d72c080bda053ee8412188e5f) section in our [documentation](https://scandiweb.notion.site/Hyv-Satoshi-theme-documentation-1adc346d72c080ffb1b2faa454d6739d)—it provides an overview of what you can achieve with Satoshi and guides you through the learning process.
+It may be used as:
+- a starting point for a custom theme,
+- a forked and extended frontend solution,
+- an internal or client-facing storefront.
 
-## Changelog
+---
 
-Refer to the [Releases](https://github.com/satoshiux/hyva/releases) tab for details.
+## Attribution
+
+This project is **based on an open-source Hyvä theme originally released under the Open Software License (OSL) v. 3.0**.
+
+The original work has been modified.  
+All modifications and further distributions remain subject to the same license.
+
+---
 
 ## License
 
-Refer to the [License file](https://github.com/satoshiux/hyva/blob/production/LICENSE.md) for more details.
+This project is licensed under the **Open Software License (OSL) v. 3.0**.
+
+You may:
+- use, modify, and distribute this software,
+- use it in commercial environments,
+
+provided that:
+- derivative works are licensed under OSL-3.0,
+- source code is made available upon distribution or external deployment,
+- original copyright and license notices are retained.
+
+See the `LICENSE` file for full terms.
+
+---
 
 ## Versioning
 
-Satoshi follows semantic versioning. Here's what `major.minor.patch` (eg. `6.0.1`) means for us:
+This project follows **semantic versioning**:
 
-`major` - breaking changes, major new features, complete rewrites.\
-`minor` - new features, released in backwards-compatible ways.\
-`patch` - bug fixes & small non-breaking changes.
+- `major` – breaking changes
+- `minor` – backward-compatible features
+- `patch` – fixes and small improvements
 
-## Contributing guidelines
+---
 
-We welcome contributions! Please see the [Contributing Guidelines](CONTRIBUTING.md).
+## Contributing
+
+Contributions are welcome.
+
+By contributing, you agree that your contributions will be licensed under **OSL-3.0**.
